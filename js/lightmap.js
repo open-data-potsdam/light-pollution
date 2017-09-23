@@ -84,6 +84,10 @@
   //L.geoJSON(mapData).addTo(lightMap);
   // */
 
+  $('#visualization').on('click', function(e){
+    console.log($(this));
+  });
+
 
 
 })(jQuery); // End of use strict
