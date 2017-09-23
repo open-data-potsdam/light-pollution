@@ -1,3 +1,8 @@
+/* line 7, /Users/florian/Websites/light-pollution/www/scss/_variables.scss */
+#lightmap {
+  height: 800px;
+}
+
 /* line 3, /Users/florian/Websites/light-pollution/www/scss/grayscale.scss */
 body {
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -49,13 +54,13 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #800000;
+  color: #FF8000;
 }
 
 /* line 54, /Users/florian/Websites/light-pollution/www/scss/grayscale.scss */
 a:focus, a:hover {
   text-decoration: none;
-  color: #1a0000;
+  color: #994d00;
 }
 
 /* line 62, /Users/florian/Websites/light-pollution/www/scss/grayscale.scss */
@@ -254,17 +259,17 @@ a:focus, a:hover {
 
 /* line 236, /Users/florian/Websites/light-pollution/www/scss/grayscale.scss */
 .btn-default {
-  color: #800000;
-  border: 1px solid #800000;
+  color: #FF8000;
+  border: 1px solid #FF8000;
   background-color: transparent;
 }
 
 /* line 240, /Users/florian/Websites/light-pollution/www/scss/grayscale.scss */
 .btn-default:focus, .btn-default:hover {
   color: black;
-  border: 1px solid #800000;
+  border: 1px solid #FF8000;
   outline: none;
-  background-color: #800000;
+  background-color: #FF8000;
 }
 
 /* line 249, /Users/florian/Websites/light-pollution/www/scss/grayscale.scss */

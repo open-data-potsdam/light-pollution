@@ -37,6 +37,7 @@
 
 })(jQuery); // End of use strict
 
+/* 
 // Google Maps Scripts
 var map = null;
 // When the window has finished loading create our google map below
@@ -188,3 +189,4 @@ function init() {
     icon: image
   });
 }
+*/
