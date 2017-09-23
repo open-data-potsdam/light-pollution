@@ -245,6 +245,13 @@ a {
     background-color: $primary;
   }
 }
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  &:hover {
+    background-color: lighten($primary, 10%);
+  }
+}
 
 ul.banner-social-buttons {
   margin-top: 0;
