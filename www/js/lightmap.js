@@ -84,8 +84,24 @@
   //L.geoJSON(mapData).addTo(lightMap);
   // */
 
-  $('#visualization').on('click', function(e){
+  /* $('#visualization .checkbox input', ).on('click', function(e){
     console.log($(this));
+  }); */
+  $('#visualization .checkbox input').change(function() {
+
+    /* 
+    lightMap.eachLayer(function (layer) { 
+      if ( (typeof layer.feature !== undefined )
+          && ( typeof layer.feature.properties !== undefined) ) {
+        //console.log(layer.feature.properties.BETRIEBART);
+        if (layer.options.name === 'XXXXX') {
+            layer.setLatLng([newLat,newLon])
+        } 
+
+      }
+    }); */
+    alert("Für eine glaubwürdige Berechnung benötigen mehr Daten!");
+    //console.log($(this).prop('checked'));
   });
 
 
